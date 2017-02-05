@@ -2,6 +2,7 @@
 
 name "itamae"
 maintainer "youyo"
+homepage "https://github.com/youyo/omnibus-itamae"
 
 install_dir "/opt/#{name}"
 
