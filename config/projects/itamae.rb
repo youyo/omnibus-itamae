@@ -11,6 +11,8 @@ build_iteration 1
 
 dependency "preparation"
 dependency "itamae"
+dependency "serverspec"
+dependency "awspec"
 dependency "version-manifest"
 
 exclude "**/.git"
