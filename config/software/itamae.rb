@@ -7,5 +7,5 @@ dependency "ruby"
 dependency "rubygems"
 
 build do
-	gem "install #{name} -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}"
+	gem "install #{name} -v #{version} -n #{install_dir}/bin --no-rdoc --no-ri"
 end
